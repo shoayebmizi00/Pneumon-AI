@@ -10,7 +10,7 @@ export async function predictImage(file, signal) {
   body.append('file', file)
   let response
   try {
-    response = await fetch(`${API_URL}/api/predict?gradcam=true`, { method: 'POST', body, signal })
+    response = await fetch(`${API_URL}/api/predict?gradcam=false`, { method: 'POST', body, signal })
   } catch (error) {
     throw new Error(messageFor(error, 'The analysis service could not be reached.'))
   }

@@ -1,13 +1,11 @@
 from __future__ import annotations
 
-import base64
 import threading
 from pathlib import Path
 
 import torch
 
 from backend.image_utils import decode_and_prepare
-from training.gradcam import GradCAM, overlay_heatmap
 from training.models import create_model, gradcam_target_layer
 from training.utils import read_json
 
@@ -43,7 +41,7 @@ class PneumoniaModelService:
     def ready(self) -> bool:
         return self.model is not None
 
-    def predict(self, data: bytes, content_type: str | None, with_gradcam: bool = True) -> dict:
+    def predict(self, data: bytes, content_type: str | None, with_gradcam: bool = False) -> dict:
         size = int(self.metadata.get("image_size", [224, 224])[0])
         prepared = decode_and_prepare(data, content_type, size)
         if not self.ready:
@@ -60,6 +58,12 @@ class PneumoniaModelService:
             uncertain = abs(pneumonia_score - threshold) <= margin or prepared.domain_warning is not None
             gradcam_uri = None
             if with_gradcam:
+                # OpenCV and Grad-CAM add substantial memory overhead. Import them
+                # only for deployments that explicitly request an attention map.
+                import base64
+
+                from training.gradcam import GradCAM, overlay_heatmap
+
                 cam = GradCAM(self.model, gradcam_target_layer(self.model, self.metadata["model"]))
                 try:
                     heatmap = cam.generate(tensor)

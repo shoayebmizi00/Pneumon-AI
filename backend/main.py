@@ -50,7 +50,7 @@ def performance() -> dict:
 
 
 @app.post("/api/predict")
-async def predict(file: UploadFile = File(...), gradcam: bool = True) -> dict:
+async def predict(file: UploadFile = File(...), gradcam: bool = False) -> dict:
     data = await file.read(settings.max_upload_size + 1)
     await file.close()
     if not data:
@@ -65,4 +65,3 @@ async def predict(file: UploadFile = File(...), gradcam: bool = True) -> dict:
         raise HTTPException(status_code=503, detail="The trained model is not available. Complete model training before requesting predictions.")
     except Exception as exc:
         raise HTTPException(status_code=500, detail="Prediction failed safely. Please try a different image.") from exc
-
