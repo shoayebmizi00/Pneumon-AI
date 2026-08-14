@@ -1,0 +1,74 @@
+{
+  "classes": {
+    "0": "NORMAL",
+    "1": "PNEUMONIA"
+  },
+  "positive_class": "PNEUMONIA",
+  "image_size": [
+    224,
+    224
+  ],
+  "preprocessing": "grayscale-to-RGB, resize, ImageNet normalization",
+  "model": "densenet121",
+  "threshold": 0.19,
+  "temperature": 0.7189329862594604,
+  "uncertainty_margin": 0.08,
+  "validation_metrics": {
+    "threshold": 0.19,
+    "accuracy": 0.9496567505720824,
+    "precision": 0.9684044233807267,
+    "recall_sensitivity": 0.9623233908948194,
+    "specificity": 0.9156118143459916,
+    "f1": 0.9653543307086614,
+    "roc_auc": 0.9839172280401937,
+    "pr_auc": 0.9939915338276966,
+    "brier_score": 0.05965665355324745,
+    "confusion_matrix": [
+      [
+        217,
+        20
+      ],
+      [
+        24,
+        613
+      ]
+    ],
+    "tn": 217,
+    "fp": 20,
+    "fn": 24,
+    "tp": 613
+  },
+  "dataset_sizes": {
+    "train": 4078,
+    "val": 874,
+    "test": 872
+  },
+  "test_metrics": {
+    "threshold": 0.19,
+    "accuracy": 0.9392201834862385,
+    "precision": 0.943683409436834,
+    "recall_sensitivity": 0.9748427672955975,
+    "specificity": 0.8432203389830508,
+    "f1": 0.9590100541376644,
+    "roc_auc": 0.9811387378744271,
+    "pr_auc": 0.989790170113108,
+    "brier_score": 0.054944831877946854,
+    "confusion_matrix": [
+      [
+        199,
+        37
+      ],
+      [
+        16,
+        620
+      ]
+    ],
+    "tn": 199,
+    "fp": 37,
+    "fn": 16,
+    "tp": 620
+  },
+  "gradcam_enabled": true,
+  "seed": 42,
+  "warning": "Research/education prototype; output is not a medical diagnosis."
+}

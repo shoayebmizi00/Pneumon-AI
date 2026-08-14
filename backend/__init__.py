@@ -1,0 +1,2 @@
+"""PneumoAI FastAPI backend."""
+

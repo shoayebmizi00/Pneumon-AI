@@ -1,0 +1,30 @@
+{
+  "dataset_dir": "pneumonia_dataset/chest_xray",
+  "output_dir": "D:\\University Class File\\8th Semester\\AI & ML lab\\pneumonia\\artifacts",
+  "image_size": 224,
+  "batch_size": 24,
+  "seed": 42,
+  "workers": 0,
+  "models": [
+    "baseline",
+    "densenet121",
+    "efficientnet_b0",
+    "mobilenet_v3"
+  ],
+  "training_schedule": {
+    "baseline": {"end_to_end_epochs": 3},
+    "densenet121": {"frozen_epochs": 1, "partial_finetune_epochs": 1, "unfrozen_backbone_fraction": 0.25},
+    "efficientnet_b0": {"frozen_epochs": 1, "partial_finetune_epochs": 0},
+    "mobilenet_v3": {"frozen_epochs": 1, "partial_finetune_epochs": 0}
+  },
+  "frozen_lr": 0.001,
+  "finetune_lr": 1e-05,
+  "weight_decay": 0.0001,
+  "patience": 3,
+  "min_sensitivity": 0.85,
+  "uncertainty_margin": 0.08,
+  "pretrained": true,
+  "python": "3.12.2",
+  "torch": "2.11.0+cpu",
+  "device": "cpu"
+}

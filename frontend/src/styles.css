@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply m-0 bg-mist font-sans text-ink antialiased; }
+  button, a, input { touch-action: manipulation; }
+  button { @apply cursor-pointer; }
+  button:disabled { @apply cursor-not-allowed; }
+  ::selection { @apply bg-teal-200 text-ink; }
+}
+@layer components {
+  .focus-ring { @apply outline-none focus-visible:ring-4 focus-visible:ring-teal-200 focus-visible:ring-offset-2; }
+  .section-pad { @apply py-20 sm:py-24; }
+  .section-heading { @apply mx-auto max-w-3xl text-center; }
+  .section-heading h2 { @apply mt-5 text-3xl font-bold tracking-tight text-ink sm:text-4xl; }
+  .section-heading p { @apply mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-600; }
+  .eyebrow { @apply inline-flex rounded-full bg-teal-50 px-3 py-2 text-xs font-bold uppercase tracking-[.15em] text-teal-700; }
+}
+.skip-link { position:fixed; left:1rem; top:-5rem; z-index:100; border-radius:.75rem; background:#0e5b55; color:white; padding:.75rem 1rem; transition:top .2s; }
+.skip-link:focus { top:1rem; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior:auto !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+}

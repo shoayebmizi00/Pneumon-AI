@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+frontend/.env
+frontend/node_modules/
+frontend/dist/
+artifacts/checkpoints/
+*.pth
+*.pt
+*.onnx
+*.log
+pneumonia_dataset/
+.DS_Store

@@ -1,0 +1,3009 @@
+{
+  "dataset_path": "D:\\University Class File\\8th Semester\\AI & ML lab\\pneumonia\\pneumonia_dataset\\chest_xray",
+  "total_images": 5856,
+  "classes": {
+    "NORMAL": 0,
+    "PNEUMONIA": 1
+  },
+  "counts_by_class": {
+    "NORMAL": 1583,
+    "PNEUMONIA": 4273
+  },
+  "counts_by_split": {
+    "train": {
+      "NORMAL": 1251,
+      "PNEUMONIA": 3680
+    },
+    "val": {
+      "NORMAL": 98,
+      "PNEUMONIA": 203
+    },
+    "test": {
+      "NORMAL": 234,
+      "PNEUMONIA": 390
+    }
+  },
+  "supported_formats": [
+    ".jpeg",
+    ".jpg",
+    ".png"
+  ],
+  "observed_formats": {
+    ".jpeg": 5856
+  },
+  "image_dimensions": {
+    "min": [
+      384,
+      127
+    ],
+    "max": [
+      2916,
+      2713
+    ],
+    "unique_sizes": 4803
+  },
+  "image_modes": {
+    "L": 5573,
+    "RGB": 283
+  },
+  "corrupted_count": 0,
+  "corrupted_files": [],
+  "exact_duplicate_groups": 30,
+  "duplicate_extra_files": 32,
+  "cross_split_duplicate_groups": 0,
+  "cross_class_duplicate_groups": 0,
+  "possible_perceptual_duplicate_groups": 322,
+  "possible_perceptual_cross_split_groups": 118,
+  "possible_perceptual_cross_split_details": [
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0129-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0807-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person49_virus_101.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0168-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person326_virus_668.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0644-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0182-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0679-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0216-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0338-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0464-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\IM-0099-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0323-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0256-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0045-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0362-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0110-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0452-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person157_virus_311.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0501-0001-0002.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0604-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0465-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0954-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1554_virus_2696.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person423_virus_869.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person94_virus_176.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0515-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1269_virus_2162.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1679_virus_2896.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0524-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person79_virus_148.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0539-0001-0002.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person30_bacteria_149.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1672_virus_2888.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0543-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0650-0001-0002.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0598-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person16_bacteria_55.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\IM-0059-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0605-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1020_virus_1710.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1376_bacteria_3511.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1880_bacteria_4765.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person23_virus_56.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0615-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0274-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0738-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0027-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0746-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1266-0001-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1416_virus_2427.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1615_virus_2801.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\IM-0751-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0677-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0578-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0347-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0652-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0757-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1162_bacteria_3107.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person931_virus_1592.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person122_bacteria_584.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person44_virus_94.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0939-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0702-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0945-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0304-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-0978-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person160_virus_316.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1019-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1041-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0199-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1056-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0272-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1086-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\IM-0107-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1112-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0052-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1120-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person534_bacteria_2251.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0663-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1128-0001-0002.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\NORMAL2-IM-1438-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1177-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person558_virus_1098.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0173-0001-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0173-0001-0002.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1219-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\IM-0070-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1225-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1354_bacteria_3448.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person791_virus_1422.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0374-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1272-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person956_virus_1628.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0671-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person110_virus_205.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1289-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0643-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1296-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person28_virus_63.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\NORMAL\\NORMAL2-IM-1306-0001.jpeg",
+        "split": "train",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person99_bacteria_474.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1004_bacteria_2935.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1040_bacteria_2974.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1180_virus_2013.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1599_virus_2776.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person23_bacteria_94.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person950_virus_1621.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person993_bacteria_2921.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person175_bacteria_835.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1017_bacteria_2948.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person253_bacteria_1157.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1021_virus_1711.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0374-0001-0002.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1024_virus_1716.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1171_bacteria_3118.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1911_bacteria_4815.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1642_virus_2842.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1050_bacteria_2984.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1180_virus_2009.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person45_bacteria_220.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person175_bacteria_833.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1058_virus_1757.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1395_virus_2398.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0659-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1068_virus_1771.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person121_bacteria_576.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1073_virus_1776.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1129_bacteria_3070.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1637_virus_2834.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1089_virus_1808.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1633_virus_2829.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person55_virus_110.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1091_virus_1810.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person327_virus_679.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0206-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1096_virus_1816.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person78_bacteria_387.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1114_bacteria_3055.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1310_virus_2255.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1455_bacteria_3784.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\IM-0097-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person78_bacteria_381.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1164_bacteria_3110.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1454_bacteria_3774.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1562_bacteria_4081.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1601_bacteria_4209.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1764_bacteria_4607.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1938_bacteria_4854.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person349_bacteria_1606.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person476_virus_973.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person605_bacteria_2466.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person891_virus_1541.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person266_bacteria_1240.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person171_bacteria_826.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1180_virus_2012.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1253_virus_2129.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1346_virus_2322.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1574_bacteria_4118.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1855_bacteria_4727.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person570_virus_1112.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person593_virus_1142.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person632_bacteria_2520.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1647_virus_2848.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1206_bacteria_3158.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1273_bacteria_3234.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1598_bacteria_4195.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1935_bacteria_4848.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person28_bacteria_143.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person441_bacteria_1904.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person566_virus_1106.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person135_bacteria_646.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1227_bacteria_3182.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1320_bacteria_3340.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1394_virus_2397.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1669_bacteria_4424.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person962_virus_1635.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person257_bacteria_1197.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person152_bacteria_721.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1675_virus_2891.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1231_bacteria_3186.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0662-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0288-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1235_virus_2095.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person22_virus_54.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1256_bacteria_3214.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person388_virus_775.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person458_bacteria_1955.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person555_bacteria_2325.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person947_bacteria_2872.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person29_virus_64.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1258_bacteria_3216.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1302_bacteria_3266.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1512_bacteria_3958.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1545_bacteria_4041.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1682_bacteria_4459.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1684_bacteria_4463.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1712_bacteria_4529.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1730_bacteria_4558.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1730_bacteria_4559.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1763_bacteria_4606.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1818_bacteria_4676.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person18_bacteria_57.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person26_bacteria_129.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person294_virus_611.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person315_bacteria_1466.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person325_bacteria_1502.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person392_bacteria_1786.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person441_bacteria_1910.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person441_bacteria_1914.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person441_bacteria_1915.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person461_bacteria_1960.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person520_bacteria_2204.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person600_bacteria_2457.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person614_virus_1183.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person673_bacteria_2566.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person720_virus_1339.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person749_virus_1374.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person778_bacteria_2682.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person977_bacteria_2902.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person979_bacteria_2905.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person982_virus_1658.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person124_virus_231.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person119_bacteria_565.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person139_bacteria_662.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person141_bacteria_678.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person83_bacteria_410.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1258_virus_2138.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1300_virus_2240.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person460_bacteria_1958.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person115_virus_219.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0330-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1266_bacteria_3225.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1297_bacteria_3260.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1620_bacteria_4272.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person27_bacteria_135.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person371_bacteria_1699.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person126_bacteria_599.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1283_virus_2206.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person490_virus_996.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person114_bacteria_544.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1678_virus_2895.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1301_virus_2241.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person41_bacteria_206.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person150_bacteria_717.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1313_bacteria_3320.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person548_bacteria_2298.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person706_virus_1304.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person149_virus_299.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1332_virus_2300.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0338-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1345_bacteria_3422.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1496_bacteria_3911.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person135_virus_270.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1360_virus_2341.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0694-0001.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1407_virus_2410.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person113_virus_216.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1459_virus_2506.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0305-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1474_virus_2557.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person501_bacteria_2116.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person669_bacteria_2562.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person260_virus_541.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1518_virus_2645.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0317-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1528_bacteria_3991.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person597_virus_1150.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1673_virus_2889.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1530_bacteria_4000.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person157_bacteria_740.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1539_bacteria_4022.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person610_virus_1177.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person253_bacteria_1153.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1576_bacteria_4126.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1595_bacteria_4183.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person435_bacteria_1879.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person493_bacteria_2087.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person266_virus_549.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1593_virus_2767.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1941_bacteria_4863.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0315-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1599_virus_2775.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person71_virus_131.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1647_bacteria_4372.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0219-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1652_bacteria_4383.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person258_bacteria_1206.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1689_bacteria_4474.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person85_bacteria_422.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1851_bacteria_4722.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person628_virus_1206.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person84_virus_157.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1858_bacteria_4730.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person369_virus_750.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person665_virus_1250.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1649_virus_2850.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1908_bacteria_4811.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person1944_bacteria_4869.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person278_bacteria_1311.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person701_virus_1297.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person109_bacteria_528.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person53_virus_107.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person270_virus_555.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person280_bacteria_1322.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person102_virus_189.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person277_bacteria_1303.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person446_virus_920.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person603_virus_1164.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person894_virus_1546.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1632_virus_2827.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person59_virus_116.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person29_bacteria_144.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person432_virus_881.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person511_bacteria_2153.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person121_bacteria_580.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person53_virus_108.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person307_bacteria_1442.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0150-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person307_virus_629.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0336-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person321_bacteria_1483.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person117_bacteria_557.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person327_bacteria_1509.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0302-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person36_bacteria_185.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person37_bacteria_189.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person147_bacteria_711.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person370_bacteria_1687.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person534_bacteria_2252.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person111_bacteria_535.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person370_bacteria_1688.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person370_virus_752.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person728_bacteria_2630.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person737_bacteria_2640.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person758_bacteria_2662.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person266_bacteria_1249.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person120_bacteria_571.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1627_virus_2819.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person382_bacteria_1742.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person266_bacteria_1242.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person387_virus_772.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person947_virus_1618.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person90_virus_170.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person397_virus_790.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0217-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person402_bacteria_1811.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person124_virus_251.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person407_bacteria_1822.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person119_virus_225.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person441_virus_894.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0337-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person460_virus_948.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0351-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person462_bacteria_1961.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person128_bacteria_605.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person155_bacteria_731.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person46_bacteria_225.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person263_virus_546.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person474_virus_971.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\NORMAL\\IM-0660-0001-0002.jpeg",
+        "split": "val",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person487_bacteria_2057.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person266_bacteria_1244.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person487_virus_991.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person83_virus_156.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person140_bacteria_668.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person488_virus_992.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1680_virus_2897.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person518_bacteria_2198.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person159_bacteria_746.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person529_bacteria_2228.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person124_virus_244.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person530_virus_1052.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person41_virus_88.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person545_bacteria_2290.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person67_virus_126.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person574_virus_1118.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0232-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\NORMAL\\NORMAL2-IM-0313-0001.jpeg",
+        "split": "test",
+        "class": "NORMAL"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person575_virus_1119.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person745_bacteria_2648.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person119_bacteria_568.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1625_virus_2817.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person58_bacteria_276.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person25_virus_59.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person652_virus_1234.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person65_virus_123.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person71_virus_132.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person881_virus_1531.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1645_virus_2845.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person883_bacteria_2807.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person78_bacteria_386.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person970_bacteria_2895.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person174_bacteria_832.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\train\\PNEUMONIA\\person974_virus_1649.jpeg",
+        "split": "train",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person154_virus_305.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person139_virus_283.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person1947_bacteria_4876.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person108_bacteria_504.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person263_bacteria_1227.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1664_virus_2877.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ],
+    [
+      {
+        "path": "pneumonia_dataset\\chest_xray\\val\\PNEUMONIA\\person264_virus_547.jpeg",
+        "split": "val",
+        "class": "PNEUMONIA"
+      },
+      {
+        "path": "pneumonia_dataset\\chest_xray\\test\\PNEUMONIA\\person1620_virus_2807.jpeg",
+        "split": "test",
+        "class": "PNEUMONIA"
+      }
+    ]
+  ],
+  "high_similarity_cross_split_pairs": [],
+  "high_similarity_threshold": 0.99,
+  "patient_level_cross_split_groups": 172,
+  "patient_level_cross_split_details": {
+    "NORMAL:im-0629": [
+      "train",
+      "val"
+    ],
+    "PNEUMONIA:person10": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person11": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person14": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person15": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1608": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1610": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1613": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1614": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1615": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1616": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1618": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1619": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1620": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1625": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1626": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1628": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1629": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1634": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1635": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1637": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1640": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1641": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1642": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1643": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1644": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1645": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1647": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1649": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1651": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1657": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1660": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1661": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1663": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1665": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1667": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1668": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1669": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1670": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1671": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1673": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1674": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1676": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1678": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1679": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1680": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1682": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1685": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person16": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person17": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person18": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person19": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person1": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person20": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person21": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person22": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person23": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person24": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person25": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person267": [
+      "train",
+      "val"
+    ],
+    "PNEUMONIA:person26": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person28": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person29": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person30": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person31": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person32": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person33": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person34": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person35": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person36": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person37": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person38": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person39": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person3": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person40": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person41": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person43": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person44": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person45": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person46": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person47": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person48": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person49": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person50": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person51": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person52": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person53": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person54": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person55": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person56": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person57": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person59": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person60": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person61": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person62": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person63": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person64": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person65": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person66": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person67": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person69": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person70": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person71": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person72": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person74": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person75": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person76": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person77": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person80": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person8": [
+      "test",
+      "train"
+    ],
+    "PNEUMONIA:person100": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person101": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person102": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person103": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person104": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person108": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person109": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person110": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person111": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person112": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person113": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person114": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person117": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person118": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person119": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person120": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person122": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person123": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person124": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person125": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person126": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person128": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person130": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person131": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person132": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person133": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person134": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person135": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person137": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person138": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person139": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person140": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person141": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person142": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person143": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person145": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person146": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person147": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person149": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person151": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person152": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person153": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person154": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person155": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person157": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person158": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person161": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person81": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person82": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person83": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person86": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person87": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person88": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person89": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person90": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person92": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person93": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person94": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person95": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person96": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person97": [
+      "test",
+      "val"
+    ],
+    "PNEUMONIA:person99": [
+      "test",
+      "val"
+    ]
+  },
+  "cross_split_duplicate_details": [],
+  "class_balance": {
+    "NORMAL": 0.270321,
+    "PNEUMONIA": 0.729679
+  },
+  "split_policy": "Official folders preserved. Any reported patient/hash overlap must be reviewed before training."
+}
